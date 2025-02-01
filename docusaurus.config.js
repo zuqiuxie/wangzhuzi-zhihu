@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-    title: 'Junjie',
+    title: '王竹子的SM教学频道',
     tagline: 'Front-end Web Developer',
     url: 'https://junjieweb.github.io',
     baseUrl: '/',
@@ -82,7 +82,7 @@ const config = {
             },
             // image: 'img/docusaurus-soc.png',
             navbar: {
-                title: 'Junjie',
+                title: '王竹子的SM教学频道',
                 logo: {
                     alt: 'My Site Logo',
                     src: 'img/logo.svg',
