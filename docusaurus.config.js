@@ -95,7 +95,7 @@ const config = {
                         type: 'doc',
                         docId: 'MDN',
                         position: 'left',
-                        label: '📒竹子后庭玩法教学系列',
+                        label: '👠竹子后庭玩法教学系列',
                     },
                     {
                         type: 'docSidebar',
