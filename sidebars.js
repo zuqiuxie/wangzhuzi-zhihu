@@ -18,10 +18,7 @@ const sidebars = {
     {
       label: '双系统极简安装指南',
       link: {
-        type: 'generated-index',
         slug: '/竹子的专业绳缚教学',
-        //description: 'describtion to be updated',
-        keywords: ['x', 'x'],
       },
     },
 
