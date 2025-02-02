@@ -156,7 +156,7 @@ const config = {
       },
 
       navbar: {
-        title: 'Power\'s Wiki',
+        title: '王竹子SMjiaocheng',
         hideOnScroll: true,
         /*
         logo: {
