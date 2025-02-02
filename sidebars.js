@@ -10,28 +10,6 @@ const sidebars = {
     '基本元器件-晶体三级管',
     '基本元器件-场效应管',
 
-    {
-      type: 'category',
-      label: '嵌入式硬件',
-      link: {
-        type: 'generated-index',
-        //description: ' ',
-        //keywords: ['硬件与半导体', '协议', '通信协议', '逻辑电平', 'SPI', 'I2C', 'CAN', 'USB', ],
-      },
-      items: [
-        'RobotCtrl-STM32通用开发套件',
-        'RobotCtrl_Core-核心板',
-        'RobotCtrl_Func-外设拓展板',
-        'RobotCtrl_Power-电源供电板',
-        'Flip-基于全志F1C200s的Linux开发板',
-        'OSD335x最小系统的设计',
-        '如何设计一款单片机的最小系统', // CSDN
-        'STM32F4硬件开发',
-        'SwiftCtrl-蓝牙手柄',
-        '自制CMSIS-DAP',
-        //'X86平台的硬件测试',
-      ],
-    },
 
     {
       type: 'category',
