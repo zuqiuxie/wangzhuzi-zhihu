@@ -167,8 +167,8 @@ const config = {
 
 
         items: [{
-            to: "硬件与半导体",
-            label: "硬件与半导体",
+            to: "硬件与半导体1",
+            label: "硬件与半导体1",
             position: "right",
           },
           {

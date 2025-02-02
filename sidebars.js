@@ -1,7 +1,7 @@
 /** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
 const sidebars = {
 
-  硬件与半导体: [
+  硬件与半导体1: [
     'Home',
     {
       type: 'category',
