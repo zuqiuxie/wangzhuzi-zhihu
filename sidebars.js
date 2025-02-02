@@ -10,71 +10,22 @@ const sidebars = {
     '基本元器件-晶体三级管',
     '基本元器件-场效应管',
 
-
-    {
-      type: 'category',
-      label: 'ATE Test Fundamental',
-      link: {
-        type: 'generated-index',
-        //description: 'describtion to be updated',
-        keywords: ['x', 'x'],
-      },
-      items: [
-        'Continuity_Test',
-        'DC_Parameters',
-        'IDD_Test',
-        'Leakage_Test',
-        'Level_Threshold_Test',
-        'Digital_Functional_Test',
-      ],
-    },
-    {
-      type: 'category',
-      label: 'ATE Mixed Signal Test',
-      link: {
-        type: 'generated-index',
-        slug: '/ATE',
-        //description: 'describtion to be updated',
-        keywords: ['x', 'x'],
-      },
-      items: [
-        'Basics_of_Mixed_Signal_Test',
-        'Basics_of_Fourier_Transform',
-        'ADC-Static_Parameters',
-        'ADC-Dynamic_Parameters',
-        'DAC-Static_Parameters',
-        'DAC-Dynamic_Parameters',
-        'Troubleshooting_of_ADC_and_DAC',
-      ],
-    },
-    {
-      type: 'category',
-      label: 'ATE Coding Syntax',
-      link: {
-        type: 'generated-index',
-        //description: 'describtion to be updated',
-        keywords: ['x', 'x'],
-      },
-      items: [
-        'VBT_Syntax-TheHdw',
-        'VBT_Syntax-TheHdw-DCVI',
-        'VBT_Syntax-TheExec-Flow',
-        'Pattern_Syntax_Notes',
-        'DCVI_Alarms'
-      ],
-    },
-
-
-
-
-
-
   ],
 
 
-
-
-  竹子的专业绳缚教学: [{
+  竹子的专业绳缚教学: [
+    '双系统极简安装指南',
+    '网页版串口助手的开发',
+    'Ubuntu配置笔记',
+    'ROS入门笔记',
+    '机器视觉入门',
+    '使用R语言进行数据分析',
+    'CSS学习笔记',
+    'HTML学习笔记',
+    'JavaScript学习笔记',
+    'Docker简易指南',
+    
+    {
     type: 'category',
     label: '软件开发',
     link: {
@@ -83,16 +34,6 @@ const sidebars = {
       keywords: ['x', 'x'],
     },
     items: [
-      '双系统极简安装指南',
-      '网页版串口助手的开发',
-      'Ubuntu配置笔记',
-      'ROS入门笔记',
-      '机器视觉入门',
-      '使用R语言进行数据分析',
-      'CSS学习笔记',
-      'HTML学习笔记',
-      'JavaScript学习笔记',
-      'Docker简易指南',
       'DockerCompose-更优雅的打开方式',
       '自适应网页设计',
       '前端开发-环境搭建',
