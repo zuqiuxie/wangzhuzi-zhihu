@@ -369,7 +369,7 @@ const sidebars = {
   ],
 
 
-  效率指南: [{
+  王竹子的SM教学: [{
     type: 'category',
     label: '机器人队行政',
     link: {
@@ -486,7 +486,7 @@ const sidebars = {
     type: 'category',
     label: '高效工作',
     link: {
-      slug: '/效率指南',
+      slug: '/王竹子的SM教学',
       type: 'generated-index',
       //description: 'describtion to be updated',
       keywords: ['x', 'x'],

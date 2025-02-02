@@ -177,8 +177,8 @@ const config = {
             position: "right",
           },
           {
-            to: "效率指南",
-            label: "效率指南",
+            to: "王竹子的SM教学",
+            label: "王竹子的SM教学",
             position: "right",
           },
 
