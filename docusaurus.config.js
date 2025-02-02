@@ -3,194 +3,257 @@
 
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const math = require('remark-math');
+const katex = require('rehype-katex');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-    title: '王竹子的SM教学频道',
-    tagline: 'Front-end Web Developer',
-    url: 'https://wangzhuzi.zhihu.blog',
-    baseUrl: '/',
-    onBrokenLinks: 'throw',
-    onBrokenMarkdownLinks: 'warn',
-    favicon: 'img/favicon.ico',
+  title: 'Power\'s Wiki',
+  tagline: '^_^',
+  url: 'https://wiki-power.com',
+  baseUrl: '/',
+  onBrokenLinks: 'warn',
+  onBrokenMarkdownLinks: 'warn',
+  favicon: 'https://cos.ap-guangzhou.myqcloud.com/wiki-media-1253965369/doc/logo-zip.png',
+  organizationName: 'linyuxuanlin', // Usually your GitHub org/user name.
+  projectName: 'Wiki_Docusaurus', // Usually your repo name.
 
-    // GitHub pages deployment config.
-    // If you aren't using GitHub pages, you don't need these.
-    organizationName: 'wangzhuzi', // Usually your GitHub org/user name.
-    projectName: 'wangzhuzi.zhihu.blog', // Usually your repo name.
+  //scripts: [
+  //  'https://cos.ap-guangzhou.myqcloud.com/wiki-media-1253965369/doc/embed.js',
+  //  'https://cos.ap-guangzhou.myqcloud.com/wiki-media-1253965369/doc/autoFitIframe.js'
+  //],
 
-    // Even if you don't use internalization, you can use this field to set useful
-    // metadata like html lang. For example, if your site is Chinese, you may want
-    // to replace "en" with "zh-Hans".
-    i18n: {
-        defaultLocale: 'zh-CN',
-        locales: ['zh-CN'],
-    },
+  themes: [
+    // ... Your other themes.
+    /*
+    [
+      require.resolve("@easyops-cn/docusaurus-search-local"),
+      {
+        // ... Your options.
+        // `hashed` is recommended as long-term-cache of index file is possible.
+        hashed: true,
+        // For Docs using Chinese, The `language` is recommended to set to:
+        // ```
+        language: ["en", "zh"],
+        // ```
+        indexDocs: true,
+        indexBlog: true,
+        indexPages: true,
+      },
+    ],*/
+  ],
 
-    presets: [
-        [
-            'classic',
-            /** @type {import('@docusaurus/preset-classic').Options} */
-            ({
-                docs: {
-                    path: 'docs',
-                    sidebarPath: require.resolve('./sidebars.js'),
-                    // Please change this to your repo.
-                    // Remove this to remove the "edit this page" links.
-                    editUrl:
-                        'https://github.com/junjieweb/junjieweb.github.io/tree/main',
-                },
-                blog: {
-                    showReadingTime: true,
-                    postsPerPage: 5,
-                    blogSidebarCount: 'ALL',
-                    blogSidebarTitle: 'All our posts',
-                    // Please change this to your repo.
-                    // Remove this to remove the "edit this page" links.
-                    editUrl:
-                        'https://github.com/junjieweb/junjieweb.github.io/tree/main',
-                },
-                theme: {
-                    customCss: require.resolve('./src/css/custom.css'),
-                },
-            }),
-        ],
+
+  presets: [
+    [
+      'classic',
+      /** @type {import('@docusaurus/preset-classic').Options} */
+      ({
+        googleAnalytics: {
+          trackingID: 'UA-152900803-1',
+          anonymizeIP: false,
+        },
+        gtag: {
+          trackingID: 'G-N2MCBBXJ0F', //Fork 我的仓库，请把这个改成你自己的
+          anonymizeIP: false,
+        },
+        docs: {
+          sidebarPath: require.resolve('./sidebars.js'),
+          // Please change this to your repo.
+          editUrl: 'https://github.com/linyuxuanlin/Wiki_Docusaurus/edit/main/',
+          sidebarCollapsible: true, //默认折叠
+          routeBasePath: "/",
+          showLastUpdateTime: false,
+          showLastUpdateAuthor: false,
+          breadcrumbs: false,
+          remarkPlugins: [math],
+          rehypePlugins: [katex],
+        },
+
+        blog: {
+          showReadingTime: false,
+          editUrl: 'https://github.com/linyuxuanlin/Wiki_Docusaurus/edit/main/',
+          //blogSidebarTitle: 'All posts',
+          blogSidebarCount: 'ALL',
+          postsPerPage: 8,
+          path: 'blog',
+          blogSidebarTitle: 'Recent',
+          feedOptions: {
+            type: 'all',
+            title: 'Power\'s Blog',
+            description: 'Power\'s Wiki 的博客 RSS',
+            copyright: `Copyright © ${new Date().getFullYear()} Power Lin.`,
+          },
+        },
+
+        sitemap: {
+          changefreq: 'always',
+          priority: 1.0,
+          //ignorePatterns: ['/tags/**'],
+          filename: 'sitemap.xml',
+        },
+
+        theme: {
+          customCss: require.resolve('./src/css/custom.css'),
+        },
+      }),
     ],
+  ],
 
-    themeConfig:
+  stylesheets: [{
+    href: 'https://cdn.jsdelivr.net/npm/katex@0.13.24/dist/katex.min.css',
+    type: 'text/css',
+    integrity: 'sha384-odtC+0UGzzFL/6PNoE8rX/SPcQDXBJ+uRepguP4QkPCm2LBxH3FA3y+fKSiJ+AmM',
+    crossorigin: 'anonymous',
+  }, ],
+
+  themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
-        ({
-            liveCodeBlock: {
-                playgroundPosition: 'bottom',
-            },
-            docs: {
-                sidebar: {
-                    hideable: true,
-                    autoCollapseCategories: true,
-                },
-            },
-            colorMode: {
-                defaultMode: 'light',
-                disableSwitch: false,
-                respectPrefersColorScheme: true,
-            },
-            announcementBar: {
-                id: 'announcementBar-2', // Increment on change
-                // content: `⭐️ If you like this site, give it a star on <a target="_blank" rel="noopener noreferrer" href="https://github.com/junjieweb/junjieweb.github.io">GitHub</a>`,
-                content: `⭐️ 如果你喜欢这个网站，在 <a style="color: red" target="_blank" rel="noopener noreferrer" href="https://github.com/junjieweb/junjieweb.github.io">GitHub</a> 上给它一颗 ⭐ `,
-                // isCloseable: false, // 是否可关闭
-            },
-            // image: 'img/docusaurus-soc.png',
-            navbar: {
-                title: '王竹子的SM教学频道',
-                logo: {
-                    alt: 'My Site Logo',
-                    src: 'img/logo.svg',
-                    srcDark: 'img/docusaurus_keytar.svg',
-                    width: 32,
-                    height: 32,
-                },
-                items: [
-                    {
-                        type: 'doc',
-                        docId: 'MDN',
-                        position: 'left',
-<<<<<<< HEAD
-                        label: '👠竹子后庭玩法教学系列',
-=======
-                        label: '📒前端笔记',
->>>>>>> parent of 77804d9f (Update docusaurus.config.js)
-                    },
-                    {
-                        type: 'docSidebar',
-                        position: 'left',
-                        sidebarId: 'interview',
-                        label: '👨‍💻前端面试题',
-                    },
-                    {
-                        type: 'docSidebar',
-                        position: 'left',
-                        sidebarId: 'UHF',
-                        label: '🚀超高频前端面试题',
-                    },
-                    {to: '/website', label: '🌐网站导航', position: 'left'},
-                    {to: '/Tools-website', label: '🧰工具网站', position: 'left'},
-                    {to: '/blog', label: '📑Blog', position: 'left'},
-                    {
-                        href: 'https://github.com/junjieweb/junjieweb.github.io',
-                        position: 'right',
-                        className: 'header-github-link',
-                        'aria-label': 'GitHub repository',
-                    },
-                ],
-            },
-            footer: {
-                style: 'dark',
-                links: [
-                    {
-                        title: '文档',
-                        items: [
-                            {
-                                label: '笔记',
-                                to: '/docs/MDN',
-                            },
-                            {
-                                label: '面试题',
-                                to: '/docs/interview-questions/html面试题',
-                            },
-                            {
-                                label: '网站导航',
-                                to: '/website',
-                            },
-                            {
-                                label: '工具网站',
-                                to: '/Tools-website',
-                            },
-                        ],
-                    },
-                    {
-                        title: '社区',
-                        items: [
-                            {
-                                label: 'Stack Overflow',
-                                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-                            },
-                            {
-                                label: ' Docusaurus',
-                                href: 'https://docusaurus.io/zh-CN/',
-                            },
-                            {
-                                label: 'Discord',
-                                href: 'https://discordapp.com/invite/docusaurus',
-                            },
-                        ],
-                    },
-                    {
-                        title: '更多',
-                        items: [
-                            {
-                                label: '博客',
-                                to: '/blog',
-                            },
-                            {
-                                label: 'GitHub',
-                                href: 'https://github.com/junjieweb',
-                            },
-                            {
-                                label: 'JetBrains Academy',
-                                href: 'https://hyperskill.org/join/1ffe05030',
-                            },
-                        ],
-                    },
-                ],
+    ({
 
-                copyright: `Copyright © ${new Date().getFullYear()} junjieweb. Built with Docusaurus.`,
-            },
-            prism: {
-                theme: lightCodeTheme,
-                darkTheme: darkCodeTheme,
-            },
-        }),
+      algolia: {
+
+        apiKey: '5c07d8bf9c9928c4453857f6cad0420e',//?02bd2340879bdb682f2a9fe509fec240
+        indexName: 'wiki-power', //
+
+        // The application ID provided by Algolia
+        appId: 'BH4D9OD16A', //BH4D9OD16A 是默认的，文档见 https://autocomplete-experimental.netlify.app/docs/docsearchmodal/#appid，用自己的 ID IRO903CONI 反而搜不出内容 
+
+        // Public API key: it is safe to commit it
+        // apiKey: 'defe7fd8690822eed8e3c94801bab286',
+
+        // indexName: 'wiki-power',
+
+        // Optional: see doc section below
+        contextualSearch: true,
+
+        // Optional: Specify domains where the navigation should occur through window.location instead on history.push. Useful when our Algolia config crawls multiple documentation sites and we want to navigate with window.location.href to them.
+        //externalUrlRegex: 'external\\.com|domain\\.com',
+
+        // Optional: Algolia search parameters
+        searchParameters: {},
+
+        // Optional: path for search page that enabled by default (`false` to disable it)
+        searchPagePath: 'search',
+
+        //... other Algolia params
+      },
+
+      //sidebarCollapsible: true, //默认折叠
+
+      metadata: [{
+        name: 'keywords',
+        content: 'ATE, hardware, STM32, Arduino, NAS, software, blog'
+      }],
+
+      image: 'https://cos.ap-guangzhou.myqcloud.com/wiki-media-1253965369/doc/logo-zip.png',
+
+      docs: {
+        sidebar: {
+          hideable: true,
+          autoCollapseCategories: true,
+        },
+      },
+
+      navbar: {
+        title: 'Power\'s Wiki',
+        hideOnScroll: true,
+        /*
+        logo: {
+          alt: 'My Site Logo',
+          src: 'img/logo.svg',
+        },*/
+
+
+
+        items: [{
+            to: "硬件与半导体",
+            label: "硬件与半导体",
+            position: "right",
+          },
+          {
+            to: "嵌入式与软件",
+            label: "嵌入式与软件",
+            position: "right",
+          },
+          {
+            to: "效率指南",
+            label: "效率指南",
+            position: "right",
+          },
+
+          {
+            to: "blog",
+            label: "博客",
+            position: "right",
+          },
+
+          {
+            href: "https://github.com/linyuxuanlin/Wiki_Docusaurus",
+            position: "right",
+            className: "header-github-link",
+            'aria-label': "GitHub repository",
+          },
+
+
+        ],
+      },
+
+
+      footer: {
+        style: 'light',
+
+
+        links: [
+
+          {
+            href: "https://nav.wiki-power.com/",
+            label: "友链 & 导航站",
+          },
+          {
+            href: "http://digest.wiki-power.com/",
+            label: "书摘",
+          },
+          {
+            label: '资源仓库',
+            href: 'https://github.com/linyuxuanlin/File-host',
+          },
+
+          /*
+          {
+            label: '电源设计方案收集',
+            href: 'https://github.com/linyuxuanlin/Collection_of_Power_Module_Design',
+          },
+          {
+            href: "https://wiki.wildwolf.pw/",
+            label: "机器人队知识库",
+          },
+          {
+            label: '功能电路模块化',
+            href: 'https://github.com/linyuxuanlin/Modularity_of_Functional_Circuit',
+          },
+          
+          {
+            label: '网页版串口助手',
+            href: 'https://serial.wiki-power.com/',
+          },
+          {
+            label: 'Markdown 转公众号编辑器',
+            href: 'https://md2wechat.wiki-power.com/',
+          },
+          */
+        ],
+
+
+        //copyright: `by Power Lin | 粤 ICP 备 20014898 号 | Built with Docusaurus.`,
+      },
+
+
+      prism: {
+        theme: lightCodeTheme,
+        darkTheme: darkCodeTheme,
+      },
+    }),
 };
 
 module.exports = config;
