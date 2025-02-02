@@ -11,23 +11,6 @@ const sidebars = {
     '基本元器件-场效应管',
 
 
-    {
-      type: 'category',
-      label: '电机驱动',
-      link: {
-        type: 'generated-index',
-        //description: ' ',
-        //keywords: ['硬件与半导体', '协议', '通信协议', '逻辑电平', 'SPI', 'I2C', 'CAN', 'USB', ],
-      },
-      items: [
-        '直流有刷电机驱动的设计',
-        'TinyDVR-小巧身材，满载动力',
-        'RaptorDVR-集成稳压的30A双电机驱动',
-        'AirForce-充满灵性的电机驱动模块',
-        'ZenDriver-高性能的电机驱动',
-        '电机驱动方案-IR2104S',
-      ],
-    },
 
     {
       type: 'category',
