@@ -211,8 +211,8 @@ const config = {
             label: "友链 & 导航站",
           },
           {
-            href: "http://digest.wiki-power.com/",
-            label: "书摘",
+            href: "http://wangzhuzi.zhihu.blog/",
+            label: "王竹子",
           },
           {
             label: '资源仓库',
