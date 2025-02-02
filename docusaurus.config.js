@@ -207,10 +207,6 @@ const config = {
         links: [
 
           {
-            href: "https://nav.wiki-power.com/",
-            label: "友链 & 导航站",
-          },
-          {
             href: "http://wangzhuzi.zhihu.blog/",
             label: "王竹子",
           },
