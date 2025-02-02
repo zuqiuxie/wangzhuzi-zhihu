@@ -8,9 +8,9 @@ const katex = require('rehype-katex');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Power\'s Wiki',
+  title: '王竹子的SM教学频道',
   tagline: '^_^',
-  url: 'https://wiki-power.com',
+  url: 'https://wangzhuzi.zhihu.blog',
   baseUrl: '/',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
