@@ -95,19 +95,23 @@ const config = {
                         type: 'doc',
                         docId: 'MDN',
                         position: 'left',
+<<<<<<< HEAD
                         label: '👠竹子后庭玩法教学系列',
+=======
+                        label: '📒前端笔记',
+>>>>>>> parent of 77804d9f (Update docusaurus.config.js)
                     },
                     {
                         type: 'docSidebar',
                         position: 'left',
                         sidebarId: 'interview',
-                        label: '👨‍💻竹子的专业绳缚教学',
+                        label: '👨‍💻前端面试题',
                     },
                     {
                         type: 'docSidebar',
                         position: 'left',
                         sidebarId: 'UHF',
-                        label: '🚀王竹子的SM教学',
+                        label: '🚀超高频前端面试题',
                     },
                     {to: '/website', label: '🌐网站导航', position: 'left'},
                     {to: '/Tools-website', label: '🧰工具网站', position: 'left'},
