@@ -24,8 +24,6 @@ const sidebars = {
         //description: 'describtion to be updated',
         keywords: ['x', 'x'],
       },
-      items: [
-      ],
     },
 
 
