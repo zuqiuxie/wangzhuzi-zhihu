@@ -172,8 +172,8 @@ const config = {
             position: "right",
           },
           {
-            to: "嵌入式与软件",
-            label: "嵌入式与软件",
+            to: "竹子的专业绳缚教学",
+            label: "竹子的专业绳缚教学",
             position: "right",
           },
           {

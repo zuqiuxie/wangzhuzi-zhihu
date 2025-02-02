@@ -279,7 +279,7 @@ const sidebars = {
 
 
 
-  嵌入式与软件: [{
+  竹子的专业绳缚教学: [{
     type: 'category',
     label: '软件开发',
     link: {
@@ -330,7 +330,7 @@ const sidebars = {
     label: '单片机',
     link: {
       type: 'generated-index',
-      slug: '/嵌入式与软件',
+      slug: '/竹子的专业绳缚教学',
       //description: 'describtion to be updated',
       keywords: ['x', 'x'],
     },
