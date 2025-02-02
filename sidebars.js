@@ -13,49 +13,6 @@ const sidebars = {
 
     {
       type: 'category',
-      label: '半导体自动化测试',
-      link: {
-        type: 'generated-index',
-        //description: ' ',
-        keywords: ['x', 'x'],
-      },
-      items: [
-        '半导体测试基础-基本概念',
-        '半导体测试基础-OS测试',
-        '半导体测试基础-DC参数测试',
-        '半导体测试基础-功能测试',
-        '半导体测试基础-AC参数测试',
-      ],
-    },
-
-    {
-      type: 'category',
-      label: '软件与仪器使用',
-      link: {
-        type: 'generated-index',
-        //description: ' ',
-        keywords: ['x', 'x'],
-      },
-      items: [
-        'AD常用技巧',
-        'AD基本操作-环境搭建',
-        'AD基本操作-基础知识',
-        'AD基本操作-原理图绘制',
-        'AD基本操作-多板系统设计',
-        'AD使用Git的注意事项',
-        '函数思想在电路设计中的应用',
-        'OrCAD配置与技巧',
-        '示波器的触发模式',
-        '网络分析仪的使用',
-        '逻辑分析仪的使用',
-        '宽带注入变压器的使用',
-        '线性注入器的使用',
-      ],
-    },
-
-
-    {
-      type: 'category',
       label: 'ATE Test Fundamental',
       link: {
         type: 'generated-index',
