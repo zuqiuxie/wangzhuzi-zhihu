@@ -20,7 +20,7 @@ const sidebars = {
       link: {
         slug: '/竹子的专业绳缚教学',
         type: 'generated-index',
-        //description: 'describtion to be updated',
+        description: 'describtion to be updated',
         keywords: ['x', 'x'],
       },
     },
