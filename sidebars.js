@@ -14,12 +14,20 @@ const sidebars = {
 
 
   竹子的专业绳缚教学: [
-    
 
     {
+      type: 'category',
       label: '双系统极简安装指南',
-      link: '/竹子的专业绳缚教学',
+      link: {
+        slug: '/竹子的专业绳缚教学',
+        type: 'generated-index',
+        //description: 'describtion to be updated',
+        keywords: ['x', 'x'],
+      },
+      items: [
+      ],
     },
+
 
     '网页版串口助手的开发',
     'Ubuntu配置笔记',
