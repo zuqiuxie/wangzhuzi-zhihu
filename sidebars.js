@@ -35,17 +35,10 @@ const sidebars = {
       keywords: ['x', 'x'],
     },
     items: [
-      'Linux学习笔记-基础知识',
-      'Linux学习笔记-用户操作',
-      '嵌入式Linux-基础知识',
-      '嵌入式Linux-GPIO子系统',
-      'BeagleBone系列-基本参数与环境配置',
-      'BeagleBone系列-无线连接',
-      'BeagleBone系列-使用BBIO库开发',
-      'BeagleBone系列-BBAI入坑',
-      'JetsonNano系列-入坑',
     ],
   },
+
+  
   {
     type: 'category',
     label: '单片机',
