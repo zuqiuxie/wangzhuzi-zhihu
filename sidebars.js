@@ -26,62 +26,8 @@ const sidebars = {
     'HTML学习笔记',
     'JavaScript学习笔记',
     'Docker简易指南',
-    
-
-  {
-    type: 'category',
-    label: 'Linux',
-    link: {
-      type: 'generated-index',
-      //description: 'describtion to be updated',
-      keywords: ['x', 'x'],
-    },
-    items: [
-    ],
-  },
-
-
-  {
-    type: 'category',
-    label: '单片机',
-    link: {
-      type: 'generated-index',
-      slug: '/竹子的专业绳缚教学',
-      //description: 'describtion to be updated',
-      keywords: ['x', 'x'],
-    },
-    items: [
-      'HAL库开发笔记-环境配置',
-      'HAL库开发笔记-GPIO',
-      'HAL库开发笔记-外部中断',
-      'HAL库开发笔记-串口通信',
-      'HAL库开发笔记-DMA',
-      'HAL库开发笔记-TIM基本定时器',
-      'HAL库开发笔记-TIM通用定时器',
-      'HAL库开发笔记-I2C通信（MPU6050）',
-      'HAL库开发笔记-CAN通信',
-      'HAL库开发笔记-USB通信',
-      'HAL库开发笔记-以太网通信（LwIP）',
-      'Lora通信-基于正点原子ATK-LORA-01模块',
-      'STM32CubeIDE串口重定向（printf）及输出浮点型',
-      '如何读写单个bit',
-      'PlatformIO—一站式嵌入式开发工具',
-      'PlatformIO搭配CubeMX食用',
-      'C与STM32常用宏定义',
-      'C与STM32代码规范',
-      'SWD与JTAG的区别与联系',
-      'CubeMX与CubeIDE避坑',
-      'STM32的启动模式',
-      'KeilMDK配置指南',
-      '大疆N3飞控-参考资料',
-      'ATTiny85调试记录',
-      'T-Clock桌上小钟',
-      '麦轮小车',
-      '转义字符',
-      '一个舵机的自我修养',
-      'FreeRTOS开发笔记',
-    ],
-  },
+  
+  
   ],
 
 
