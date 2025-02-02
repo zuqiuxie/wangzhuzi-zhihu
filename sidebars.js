@@ -154,7 +154,7 @@ const sidebars = {
       link: {
         type: 'generated-index',
         //description: ' ',
-        slug: '/硬件与半导体',
+        slug: '/硬件与半导体1',
         keywords: ['x', 'x'],
       },
       items: [
