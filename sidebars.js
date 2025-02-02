@@ -16,7 +16,6 @@ const sidebars = {
   竹子的专业绳缚教学: [
 
     {
-      type: 'category',
       label: '双系统极简安装指南',
       link: {
         slug: '/竹子的专业绳缚教学',
