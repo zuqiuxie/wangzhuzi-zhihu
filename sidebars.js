@@ -14,53 +14,6 @@ const sidebars = {
 
     {
       type: 'category',
-      label: '通信协议',
-      link: {
-        type: 'generated-index',
-        //description: ' ',
-        keywords: ['硬件与半导体', '协议', '通信协议', '逻辑电平', 'SPI', 'I2C', 'CAN', 'USB',],
-      },
-      items: [
-        '通信协议-数字逻辑电平',
-        '通信协议-串口通信',
-        '通信协议-SPI',
-        '通信协议-I2C',
-        '通信协议-CAN',
-        '通信协议-USB',
-        '通信协议-以太网',
-      ],
-    },
-
-    {
-      type: 'category',
-      label: '电源设计',
-      link: {
-        type: 'generated-index',
-        //description: ' ',
-        keywords: ['x', 'x'],
-      },
-      items: [
-        '电源设计-方案确定',
-        '电源拓扑-线性稳压',
-        '电源拓扑-开关稳压（非隔离型）',
-        '电源拓扑-开关稳压（隔离型）',
-        '电源设计-开关稳压IC（非隔离型）',
-        '电源设计-自举电路',
-        '电源设计-纹波噪声与测量方法',
-        '电源设计-LDO电源抑制比（PSRR）与测量方法',
-        '电源方案（LDO）-XC6206',
-        '电源方案（Buck）-LMR14050',
-        '电源方案（Buck）-TPS54531',
-        '电源方案（Buck）-XL2009E1',
-        '电源方案（Boost）-SX1308',
-        '电源方案（PMIC）-EA3036C',
-        '电源方案（PMIC）-EA3059',
-      ],
-    },
-
-
-    {
-      type: 'category',
       label: '射频电路',
       link: {
         type: 'generated-index',
