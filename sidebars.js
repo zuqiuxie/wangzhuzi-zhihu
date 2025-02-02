@@ -1,7 +1,7 @@
 /** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
 const sidebars = {
 
-  硬件与半导体1: [
+  竹子后庭玩法教学系列: [
     'Home',
     {
       type: 'category',
@@ -154,7 +154,7 @@ const sidebars = {
       link: {
         type: 'generated-index',
         //description: ' ',
-        slug: '/硬件与半导体1',
+        slug: '/竹子后庭玩法教学系列',
         keywords: ['x', 'x'],
       },
       items: [
