@@ -167,8 +167,8 @@ const config = {
 
 
         items: [{
-            to: "硬件与半导体",
-            label: "硬件与半导体",
+            to: "",
+            label: "竹子后庭玩法教学系列",
             position: "right",
           },
           {

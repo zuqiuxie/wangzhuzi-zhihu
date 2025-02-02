@@ -1,7 +1,7 @@
 /** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
 const sidebars = {
 
-  硬件与半导体: [
+  竹子后庭玩法教学系列: [
     'Home',
     {
       type: 'category',
