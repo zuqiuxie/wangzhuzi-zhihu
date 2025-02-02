@@ -80,8 +80,8 @@ const config = {
           blogSidebarTitle: 'Recent',
           feedOptions: {
             type: 'all',
-            title: 'Power\'s Blog',
-            description: 'Power\'s Wiki 的博客 RSS',
+            title: '王竹子的SM教学频道',
+            description: '王竹子 的博客 RSS',
             copyright: `Copyright © ${new Date().getFullYear()} Power Lin.`,
           },
         },
@@ -156,7 +156,7 @@ const config = {
       },
 
       navbar: {
-        title: '王竹子SMjiaocheng',
+        title: '王竹子的SM教学频道',
         hideOnScroll: true,
         /*
         logo: {
