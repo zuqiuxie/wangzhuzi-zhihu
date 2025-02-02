@@ -14,6 +14,17 @@ const sidebars = {
 
 
   竹子的专业绳缚教学: [
+
+    {
+      label: '双系统极简安装指南',
+      link: {
+        type: 'generated-index',
+        slug: '/竹子的专业绳缚教学',
+        //description: 'describtion to be updated',
+        keywords: ['x', 'x'],
+      },
+    },
+
     '双系统极简安装指南',
     '网页版串口助手的开发',
     'Ubuntu配置笔记',
@@ -29,7 +40,9 @@ const sidebars = {
   ],
 
 
-  王竹子的SM教学: [{
+  王竹子的SM教学: [
+    
+    {
     type: 'category',
     label: '机器人队行政',
     link: {
@@ -51,6 +64,7 @@ const sidebars = {
       '出展活动-经验总结',
     ],
   },
+
   {
     type: 'category',
     label: '产品相关',
@@ -116,6 +130,7 @@ const sidebars = {
       'Node.js和npm的安装与卸载（MacOS）',
     ],
   },
+
   {
     type: 'category',
     label: '生活黑客',
@@ -142,6 +157,7 @@ const sidebars = {
       //'一些观点',
     ],
   },
+
   {
     type: 'category',
     label: '高效工作',
@@ -182,6 +198,7 @@ const sidebars = {
       '如何配一台电脑',
     ],
   },
+
   ],
 
 };
