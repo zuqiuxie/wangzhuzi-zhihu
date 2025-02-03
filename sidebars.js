@@ -7,6 +7,7 @@ const sidebars = {
       type: 'category',
       label: '基础知识',
       link: {
+        slug: '/硬件与半导体',
         type: 'generated-index',
         //description: '',
         keywords: ['硬件与半导体', '硬件与半导体基础知识', '电阻', '电容', '电感', '磁珠', '二极管', '三极管', 'MOS', '运算放大器', '数字电路', '设计规范', '推挽开漏', '共模差模', '储存介质', '锂电池', '编码器'],
