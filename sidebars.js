@@ -156,28 +156,6 @@ const sidebars = {
       ],
     },
 
-    {
-      type: 'category',
-      label: 'ATE Coding Syntax',
-      link: {
-        type: 'generated-index',
-        //description: 'describtion to be updated',
-        keywords: ['x', 'x'],
-      },
-      items: [
-        'VBT_Syntax-TheHdw',
-        'VBT_Syntax-TheHdw-DCVI',
-        'VBT_Syntax-TheExec-Flow',
-        'Pattern_Syntax_Notes',
-        'DCVI_Alarms'
-      ],
-    },
-
-
-
-
-
-
   ],
 
 
