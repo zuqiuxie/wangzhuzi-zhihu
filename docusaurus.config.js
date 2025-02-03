@@ -168,11 +168,6 @@ const config = {
 
         items: [
           {
-            to: "主页",
-            label: "主页",
-            position: "right",
-          },
-          {
             to: "硬件与半导体",
             label: "硬件与半导体",
             position: "right",
