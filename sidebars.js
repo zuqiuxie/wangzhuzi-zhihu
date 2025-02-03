@@ -102,9 +102,11 @@ const sidebars = {
 
 
 
-  醉轻舟: [{
+  醉轻舟: [
+
+    {
     type: 'category',
-    label: '软件开发',
+    label: '女优介绍',
     link: {
       slug: '/醉轻舟',
       type: 'generated-index',
@@ -129,9 +131,10 @@ const sidebars = {
       'Git学习笔记',
     ],
   },
+
   {
     type: 'category',
-    label: 'Linux',
+    label: '真实采访',
     link: {
       type: 'generated-index',
       //description: 'describtion to be updated',
@@ -149,9 +152,10 @@ const sidebars = {
       'JetsonNano系列-入坑',
     ],
   },
+
   {
     type: 'category',
-    label: '单片机',
+    label: 'TOP 10系列',
     link: {
       type: 'generated-index',
       //description: 'describtion to be updated',
@@ -189,6 +193,119 @@ const sidebars = {
       'FreeRTOS开发笔记',
     ],
   },
+
+  {
+    type: 'category',
+    label: '奇奇怪怪系列',
+    link: {
+      slug: '/醉轻舟',
+      type: 'generated-index',
+      //description: 'describtion to be updated',
+      keywords: ['x', 'x'],
+    },
+    items: [
+
+    ],
+  },
+
+  {
+    type: 'category',
+    label: '母女系列',
+    link: {
+      slug: '/醉轻舟',
+      type: 'generated-index',
+      //description: 'describtion to be updated',
+      keywords: ['x', 'x'],
+    },
+    items: [
+
+    ],
+  },
+
+  {
+    type: 'category',
+    label: '漫画改编',
+    link: {
+      slug: '/醉轻舟',
+      type: 'generated-index',
+      //description: 'describtion to be updated',
+      keywords: ['x', 'x'],
+    },
+    items: [
+
+    ],
+  },
+
+  {
+    type: 'category',
+    label: '黑人系列',
+    link: {
+      slug: '/醉轻舟',
+      type: 'generated-index',
+      //description: 'describtion to be updated',
+      keywords: ['x', 'x'],
+    },
+    items: [
+
+    ],
+  },
+
+  {
+    type: 'category',
+    label: '孕妇系列',
+    link: {
+      slug: '/醉轻舟',
+      type: 'generated-index',
+      //description: 'describtion to be updated',
+      keywords: ['x', 'x'],
+    },
+    items: [
+
+    ],
+  },
+
+  {
+    type: 'category',
+    label: 'NTR精选合集',
+    link: {
+      slug: '/醉轻舟',
+      type: 'generated-index',
+      //description: 'describtion to be updated',
+      keywords: ['x', 'x'],
+    },
+    items: [
+
+    ],
+  },
+
+  {
+    type: 'category',
+    label: '优秀影片合集',
+    link: {
+      slug: '/醉轻舟',
+      type: 'generated-index',
+      //description: 'describtion to be updated',
+      keywords: ['x', 'x'],
+    },
+    items: [
+
+    ],
+  },
+
+  {
+    type: 'category',
+    label: '不为人知的女优故事',
+    link: {
+      slug: '/醉轻舟',
+      type: 'generated-index',
+      //description: 'describtion to be updated',
+      keywords: ['x', 'x'],
+    },
+    items: [
+
+    ],
+  },
+
   ],
 
 
