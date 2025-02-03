@@ -111,7 +111,7 @@ const sidebars = {
       slug: '/醉轻舟',
       type: 'generated-index',
       //description: 'describtion to be updated',
-      keywords: ['x', 'x'],
+      //keywords: ['x', 'x'],
     },
     items: [
       'zuiqingzhou/nvyoujieshao/双系统极简安装指南',
@@ -128,7 +128,7 @@ const sidebars = {
     link: {
       type: 'generated-index',
       //description: 'describtion to be updated',
-      keywords: ['x', 'x'],
+      //keywords: ['x', 'x'],
     },
     items: [
       'Linux学习笔记-基础知识',
@@ -151,7 +151,7 @@ const sidebars = {
     link: {
       type: 'generated-index',
       //description: 'describtion to be updated',
-      keywords: ['x', 'x'],
+      //keywords: ['x', 'x'],
     },
     items: [
       'HAL库开发笔记-环境配置',
@@ -167,7 +167,7 @@ const sidebars = {
     link: {
       type: 'generated-index',
       //description: 'describtion to be updated',
-      keywords: ['x', 'x'],
+      //keywords: ['x', 'x'],
     },
     items: [
       '使用R语言进行数据分析',
@@ -182,7 +182,7 @@ const sidebars = {
     link: {
       type: 'generated-index',
       //description: 'describtion to be updated',
-      keywords: ['x', 'x'],
+      //keywords: ['x', 'x'],
     },
     items: [
       'HAL库开发笔记-DMA',
@@ -196,7 +196,7 @@ const sidebars = {
     link: {
       type: 'generated-index',
       //description: 'describtion to be updated',
-      keywords: ['x', 'x'],
+      //keywords: ['x', 'x'],
     },
     items: [
       'JavaScript学习笔记',
@@ -212,7 +212,7 @@ const sidebars = {
     link: {
       type: 'generated-index',
       //description: 'describtion to be updated',
-      keywords: ['x', 'x'],
+      //keywords: ['x', 'x'],
     },
     items: [
       'HAL库开发笔记-TIM通用定时器',
@@ -230,7 +230,7 @@ const sidebars = {
     link: {
       type: 'generated-index',
       //description: 'describtion to be updated',
-      keywords: ['x', 'x'],
+      //keywords: ['x', 'x'],
     },
     items: [
       '前端开发-环境搭建',
@@ -246,7 +246,7 @@ const sidebars = {
     link: {
       type: 'generated-index',
       //description: 'describtion to be updated',
-      keywords: ['x', 'x'],
+      //keywords: ['x', 'x'],
     },
     items: [
       'STM32CubeIDE串口重定向（printf）及输出浮点型',
@@ -264,7 +264,7 @@ const sidebars = {
     link: {
       type: 'generated-index',
       //description: 'describtion to be updated',
-      keywords: ['x', 'x'],
+      //keywords: ['x', 'x'],
     },
     items: [
       '转义字符',
@@ -279,7 +279,7 @@ const sidebars = {
     link: {
       type: 'generated-index',
       //description: 'describtion to be updated',
-      keywords: ['x', 'x'],
+      //keywords: ['x', 'x'],
     },
     items: [
       'SWD与JTAG的区别与联系',
@@ -299,7 +299,7 @@ const sidebars = {
     link: {
       type: 'generated-index',
       //description: 'describtion to be updated',
-      keywords: ['x', 'x'],
+      //keywords: ['x', 'x'],
     },
     items: [
       '四校交流-策划案',
@@ -321,7 +321,7 @@ const sidebars = {
     link: {
       type: 'generated-index',
       //description: 'describtion to be updated',
-      keywords: ['x', 'x'],
+      //keywords: ['x', 'x'],
     },
     items: [
       '产品经理的日常',
@@ -341,7 +341,7 @@ const sidebars = {
     link: {
       type: 'generated-index',
       //description: 'describtion to be updated',
-      keywords: ['x', 'x'],
+      //keywords: ['x', 'x'],
     },
     items: [
       'Windows常用命令',
@@ -387,7 +387,7 @@ const sidebars = {
       //slug: '/生活',
       type: 'generated-index',
       //description: '一些生活相关的笔记。',
-      keywords: ['life', 'lifestyle'],
+      //keywords: ['life', 'lifestyle'],
     },
     items: [
       '如何调制一杯鸡尾酒',
@@ -413,7 +413,7 @@ const sidebars = {
       slug: '/效率指南',
       type: 'generated-index',
       //description: 'describtion to be updated',
-      keywords: ['x', 'x'],
+      //keywords: ['x', 'x'],
     },
     items: [
 
