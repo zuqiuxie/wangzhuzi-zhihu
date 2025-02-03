@@ -31,17 +31,14 @@ const sidebars = {
         keywords: ['竹子的专业绳缚教学', '协议', ],
       },
       items: [
-        'RobotCtrl-STM32通用开发套件',
-        'RobotCtrl_Core-核心板',
-        'RobotCtrl_Func-外设拓展板',
-        'RobotCtrl_Power-电源供电板',
-        'Flip-基于全志F1C200s的Linux开发板',
-        'OSD335x最小系统的设计',
-        '如何设计一款单片机的最小系统', // CSDN
-        'STM32F4硬件开发',
-        'SwiftCtrl-蓝牙手柄',
-        '自制CMSIS-DAP',
-        //'X86平台的硬件测试',
+        'wangzhuzi/shengfu/RobotCtrl-STM32通用开发套件',
+        'wangzhuzi/shengfu/RobotCtrl_Core-核心板',
+        'wangzhuzi/shengfu/RobotCtrl_Func-外设拓展板',
+        'wangzhuzi/shengfu/RobotCtrl_Power-电源供电板',
+        'wangzhuzi/shengfu/Flip-基于全志F1C200s的Linux开发板',
+        'wangzhuzi/shengfu/OSD335x最小系统的设计',
+        'wangzhuzi/shengfu/如何设计一款单片机的最小系统', // CSDN
+        'wangzhuzi/shengfu/STM32F4硬件开发',
       ],
     },
 
