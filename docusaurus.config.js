@@ -168,8 +168,8 @@ const config = {
 
         items: [
           {
-            to: "硬件与半导体",
-            label: "硬件与半导体",
+            to: "王竹子",
+            label: "王竹子",
             position: "right",
           },
           {

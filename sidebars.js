@@ -1,16 +1,16 @@
 /** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
 const sidebars = {
 
-  硬件与半导体: [
+  王竹子: [
     'Home',
     {
       type: 'category',
       label: '基础知识',
       link: {
-        slug: '/硬件与半导体',
+        slug: '/王竹子',
         type: 'generated-index',
         //description: '',
-        keywords: ['硬件与半导体', '硬件与半导体基础知识', '电阻', '电容', '电感', '磁珠', '二极管', '三极管', 'MOS', '运算放大器', '数字电路', '设计规范', '推挽开漏', '共模差模', '储存介质', '锂电池', '编码器'],
+        keywords: ['王竹子', '硬件与半导体基础知识', '电阻', '电容', '电感', '磁珠', '二极管', '三极管', 'MOS', '运算放大器', '数字电路', '设计规范', '推挽开漏', '共模差模', '储存介质', '锂电池', '编码器'],
       },
       items: [
         '基本元器件-电阻',
@@ -41,7 +41,7 @@ const sidebars = {
       link: {
         type: 'generated-index',
         //description: ' ',
-        //keywords: ['硬件与半导体', '协议', '通信协议', '逻辑电平', 'SPI', 'I2C', 'CAN', 'USB', ],
+        keywords: ['硬件与半导体', '协议', '通信协议', '逻辑电平', 'SPI', 'I2C', 'CAN', 'USB', ],
       },
       items: [
         'RobotCtrl-STM32通用开发套件',
@@ -64,7 +64,7 @@ const sidebars = {
       link: {
         type: 'generated-index',
         //description: ' ',
-        //keywords: ['硬件与半导体', '协议', '通信协议', '逻辑电平', 'SPI', 'I2C', 'CAN', 'USB', ],
+        keywords: ['硬件与半导体', '协议', '通信协议', '逻辑电平', 'SPI', 'I2C', 'CAN', 'USB', ],
       },
       items: [
         '直流有刷电机驱动的设计',
