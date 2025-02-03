@@ -72,17 +72,6 @@ const sidebars = {
         'AirForce-充满灵性的电机驱动模块',
         'ZenDriver-高性能的电机驱动',
         '电机驱动方案-IR2104S',
-        '射频-组件与系统-导线',
-        '射频-组件与系统-电阻',
-        '射频-组件与系统-电容',
-        '射频-谐振电路-基本定义',
-        '射频-谐振电路-无损组件的共振',
-        '射频-谐振电路-负载Q值',
-        '射频-S参数',
-        '射频-天线基础知识',
-        '射频-天线的分类与选型',
-        '史密斯圆图与匹配电路基础',
-        '一般天线匹配电路的设计',
         '电源设计-方案确定',
         '电源拓扑-线性稳压',
         '电源拓扑-开关稳压（非隔离型）',
@@ -122,28 +111,82 @@ const sidebars = {
 
     {
       type: 'category',
-      label: '信号与电源完整性',
+      label: '软件与仪器使用',
       link: {
         type: 'generated-index',
         //description: ' ',
-        slug: '/硬件与半导体',
         keywords: ['x', 'x'],
       },
       items: [
-        '高速电路的设计',
-        '信号完整性-基础概念',
-        '信号完整性-时域与频域',
-        '信号完整性-阻抗与电气模型',
-        '信号完整性-电阻的物理基础',
-        '信号完整性-传输线',
-        '信号完整性-失真',
-        '信号完整性-串扰',
-        '电源完整性设计',
-        'ESD基础知识',
-        'EMC设计指南',
-        '信号地与机壳地间的EMC设计',
+
+        '函数思想在电路设计中的应用',
+        'OrCAD配置与技巧',
+        '示波器的触发模式',
+        '网络分析仪的使用',
+        '逻辑分析仪的使用',
+        '宽带注入变压器的使用',
+        '线性注入器的使用',
       ],
     },
+
+
+    {
+      type: 'category',
+      label: 'ATE Test Fundamental',
+      link: {
+        type: 'generated-index',
+        //description: 'describtion to be updated',
+        keywords: ['x', 'x'],
+      },
+      items: [
+        'Continuity_Test',
+        'DC_Parameters',
+        'IDD_Test',
+        'Leakage_Test',
+        'Level_Threshold_Test',
+        'Digital_Functional_Test',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'ATE Mixed Signal Test',
+      link: {
+        type: 'generated-index',
+        slug: '/ATE',
+        //description: 'describtion to be updated',
+        keywords: ['x', 'x'],
+      },
+      items: [
+        'Basics_of_Mixed_Signal_Test',
+        'Basics_of_Fourier_Transform',
+        'ADC-Static_Parameters',
+        'ADC-Dynamic_Parameters',
+        'DAC-Static_Parameters',
+        'DAC-Dynamic_Parameters',
+        'Troubleshooting_of_ADC_and_DAC',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'ATE Coding Syntax',
+      link: {
+        type: 'generated-index',
+        //description: 'describtion to be updated',
+        keywords: ['x', 'x'],
+      },
+      items: [
+        'VBT_Syntax-TheHdw',
+        'VBT_Syntax-TheHdw-DCVI',
+        'VBT_Syntax-TheExec-Flow',
+        'Pattern_Syntax_Notes',
+        'DCVI_Alarms'
+      ],
+    },
+
+
+
+
+
 
   ],
 
