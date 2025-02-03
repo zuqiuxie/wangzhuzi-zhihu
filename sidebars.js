@@ -119,16 +119,6 @@ const sidebars = {
       'Ubuntu配置笔记',
       'ROS入门笔记',
       '机器视觉入门',
-      '使用R语言进行数据分析',
-      'CSS学习笔记',
-      'HTML学习笔记',
-      'JavaScript学习笔记',
-      'Docker简易指南',
-      'DockerCompose-更优雅的打开方式',
-      '自适应网页设计',
-      '前端开发-环境搭建',
-      'BookJourney-二手书商城小程序',
-      'Git学习笔记',
     ],
   },
 
@@ -150,6 +140,8 @@ const sidebars = {
       'BeagleBone系列-使用BBIO库开发',
       'BeagleBone系列-BBAI入坑',
       'JetsonNano系列-入坑',
+      'ATTiny85调试记录',
+      'T-Clock桌上小钟',
     ],
   },
 
@@ -166,31 +158,6 @@ const sidebars = {
       'HAL库开发笔记-GPIO',
       'HAL库开发笔记-外部中断',
       'HAL库开发笔记-串口通信',
-      'HAL库开发笔记-DMA',
-      'HAL库开发笔记-TIM基本定时器',
-      'HAL库开发笔记-TIM通用定时器',
-      'HAL库开发笔记-I2C通信（MPU6050）',
-      'HAL库开发笔记-CAN通信',
-      'HAL库开发笔记-USB通信',
-      'HAL库开发笔记-以太网通信（LwIP）',
-      'Lora通信-基于正点原子ATK-LORA-01模块',
-      'STM32CubeIDE串口重定向（printf）及输出浮点型',
-      '如何读写单个bit',
-      'PlatformIO—一站式嵌入式开发工具',
-      'PlatformIO搭配CubeMX食用',
-      'C与STM32常用宏定义',
-      'C与STM32代码规范',
-      'SWD与JTAG的区别与联系',
-      'CubeMX与CubeIDE避坑',
-      'STM32的启动模式',
-      'KeilMDK配置指南',
-      '大疆N3飞控-参考资料',
-      'ATTiny85调试记录',
-      'T-Clock桌上小钟',
-      '麦轮小车',
-      '转义字符',
-      '一个舵机的自我修养',
-      'FreeRTOS开发笔记',
     ],
   },
 
@@ -204,7 +171,9 @@ const sidebars = {
       keywords: ['x', 'x'],
     },
     items: [
-
+      '使用R语言进行数据分析',
+      'CSS学习笔记',
+      'HTML学习笔记',
     ],
   },
 
@@ -218,7 +187,8 @@ const sidebars = {
       keywords: ['x', 'x'],
     },
     items: [
-
+      'HAL库开发笔记-DMA',
+      'HAL库开发笔记-TIM基本定时器',
     ],
   },
 
@@ -232,7 +202,10 @@ const sidebars = {
       keywords: ['x', 'x'],
     },
     items: [
-
+      'JavaScript学习笔记',
+      'Docker简易指南',
+      'DockerCompose-更优雅的打开方式',
+      '自适应网页设计',
     ],
   },
 
@@ -246,7 +219,12 @@ const sidebars = {
       keywords: ['x', 'x'],
     },
     items: [
-
+      'HAL库开发笔记-TIM通用定时器',
+      'HAL库开发笔记-I2C通信（MPU6050）',
+      'HAL库开发笔记-CAN通信',
+      'HAL库开发笔记-USB通信',
+      'HAL库开发笔记-以太网通信（LwIP）',
+      'Lora通信-基于正点原子ATK-LORA-01模块',
     ],
   },
 
@@ -260,7 +238,10 @@ const sidebars = {
       keywords: ['x', 'x'],
     },
     items: [
-
+      '前端开发-环境搭建',
+      'BookJourney-二手书商城小程序',
+      'Git学习笔记',
+      '麦轮小车',
     ],
   },
 
@@ -274,7 +255,12 @@ const sidebars = {
       keywords: ['x', 'x'],
     },
     items: [
-
+      'STM32CubeIDE串口重定向（printf）及输出浮点型',
+      '如何读写单个bit',
+      'PlatformIO—一站式嵌入式开发工具',
+      'PlatformIO搭配CubeMX食用',
+      'C与STM32常用宏定义',
+      'C与STM32代码规范',
     ],
   },
 
@@ -288,7 +274,9 @@ const sidebars = {
       keywords: ['x', 'x'],
     },
     items: [
-
+      '转义字符',
+      '一个舵机的自我修养',
+      'FreeRTOS开发笔记',
     ],
   },
 
@@ -302,7 +290,11 @@ const sidebars = {
       keywords: ['x', 'x'],
     },
     items: [
-
+      'SWD与JTAG的区别与联系',
+      'CubeMX与CubeIDE避坑',
+      'STM32的启动模式',
+      'KeilMDK配置指南',
+      '大疆N3飞控-参考资料',
     ],
   },
 
