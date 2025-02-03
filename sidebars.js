@@ -73,7 +73,6 @@ const sidebars = {
         'wangzhuzi/sm/电源方案（PMIC）-EA3036C',
         'wangzhuzi/sm/电源方案（PMIC）-EA3059',
         'wangzhuzi/sm/函数思想在电路设计中的应用',
-        'wangzhuzi/sm/OrCAD配置与技巧',
         'wangzhuzi/sm/示波器的触发模式',
         'wangzhuzi/sm/网络分析仪的使用',
         'wangzhuzi/sm/逻辑分析仪的使用',
