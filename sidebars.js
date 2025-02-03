@@ -72,6 +72,32 @@ const sidebars = {
         'AirForce-充满灵性的电机驱动模块',
         'ZenDriver-高性能的电机驱动',
         '电机驱动方案-IR2104S',
+        '射频-组件与系统-导线',
+        '射频-组件与系统-电阻',
+        '射频-组件与系统-电容',
+        '射频-谐振电路-基本定义',
+        '射频-谐振电路-无损组件的共振',
+        '射频-谐振电路-负载Q值',
+        '射频-S参数',
+        '射频-天线基础知识',
+        '射频-天线的分类与选型',
+        '史密斯圆图与匹配电路基础',
+        '一般天线匹配电路的设计',
+        '电源设计-方案确定',
+        '电源拓扑-线性稳压',
+        '电源拓扑-开关稳压（非隔离型）',
+        '电源拓扑-开关稳压（隔离型）',
+        '电源设计-开关稳压IC（非隔离型）',
+        '电源设计-自举电路',
+        '电源设计-纹波噪声与测量方法',
+        '电源设计-LDO电源抑制比（PSRR）与测量方法',
+        '电源方案（LDO）-XC6206',
+        '电源方案（Buck）-LMR14050',
+        '电源方案（Buck）-TPS54531',
+        '电源方案（Buck）-XL2009E1',
+        '电源方案（Boost）-SX1308',
+        '电源方案（PMIC）-EA3036C',
+        '电源方案（PMIC）-EA3059',
       ],
     },
 
@@ -93,60 +119,6 @@ const sidebars = {
         '通信协议-以太网',
       ],
     },
-
-    {
-      type: 'category',
-      label: '电源设计',
-      link: {
-        type: 'generated-index',
-        //description: ' ',
-        keywords: ['x', 'x'],
-      },
-      items: [
-        '电源设计-方案确定',
-        '电源拓扑-线性稳压',
-        '电源拓扑-开关稳压（非隔离型）',
-        '电源拓扑-开关稳压（隔离型）',
-        '电源设计-开关稳压IC（非隔离型）',
-        '电源设计-自举电路',
-        '电源设计-纹波噪声与测量方法',
-        '电源设计-LDO电源抑制比（PSRR）与测量方法',
-        '电源方案（LDO）-XC6206',
-        '电源方案（Buck）-LMR14050',
-        '电源方案（Buck）-TPS54531',
-        '电源方案（Buck）-XL2009E1',
-        '电源方案（Boost）-SX1308',
-        '电源方案（PMIC）-EA3036C',
-        '电源方案（PMIC）-EA3059',
-      ],
-    },
-
-
-    {
-      type: 'category',
-      label: '射频电路',
-      link: {
-        type: 'generated-index',
-        //description: ' ',
-        keywords: ['x', 'x'],
-      },
-      items: [
-        //'射频-基础知识',
-        '射频-组件与系统-导线',
-        '射频-组件与系统-电阻',
-        '射频-组件与系统-电容',
-        '射频-谐振电路-基本定义',
-        '射频-谐振电路-无损组件的共振',
-        '射频-谐振电路-负载Q值',
-        //'射频-无线电波与天线',
-        '射频-S参数',
-        '射频-天线基础知识',
-        '射频-天线的分类与选型',
-        '史密斯圆图与匹配电路基础',
-        '一般天线匹配电路的设计',
-      ],
-    },
-
 
     {
       type: 'category',
@@ -172,107 +144,6 @@ const sidebars = {
         '信号地与机壳地间的EMC设计',
       ],
     },
-
-    {
-      type: 'category',
-      label: '半导体自动化测试',
-      link: {
-        type: 'generated-index',
-        //description: ' ',
-        keywords: ['x', 'x'],
-      },
-      items: [
-        '半导体测试基础-基本概念',
-        '半导体测试基础-OS测试',
-        '半导体测试基础-DC参数测试',
-        '半导体测试基础-功能测试',
-        '半导体测试基础-AC参数测试',
-      ],
-    },
-
-    {
-      type: 'category',
-      label: '软件与仪器使用',
-      link: {
-        type: 'generated-index',
-        //description: ' ',
-        keywords: ['x', 'x'],
-      },
-      items: [
-        'AD常用技巧',
-        'AD基本操作-环境搭建',
-        'AD基本操作-基础知识',
-        'AD基本操作-原理图绘制',
-        'AD基本操作-多板系统设计',
-        'AD使用Git的注意事项',
-        '函数思想在电路设计中的应用',
-        'OrCAD配置与技巧',
-        '示波器的触发模式',
-        '网络分析仪的使用',
-        '逻辑分析仪的使用',
-        '宽带注入变压器的使用',
-        '线性注入器的使用',
-      ],
-    },
-
-
-    {
-      type: 'category',
-      label: 'ATE Test Fundamental',
-      link: {
-        type: 'generated-index',
-        //description: 'describtion to be updated',
-        keywords: ['x', 'x'],
-      },
-      items: [
-        'Continuity_Test',
-        'DC_Parameters',
-        'IDD_Test',
-        'Leakage_Test',
-        'Level_Threshold_Test',
-        'Digital_Functional_Test',
-      ],
-    },
-    {
-      type: 'category',
-      label: 'ATE Mixed Signal Test',
-      link: {
-        type: 'generated-index',
-        slug: '/ATE',
-        //description: 'describtion to be updated',
-        keywords: ['x', 'x'],
-      },
-      items: [
-        'Basics_of_Mixed_Signal_Test',
-        'Basics_of_Fourier_Transform',
-        'ADC-Static_Parameters',
-        'ADC-Dynamic_Parameters',
-        'DAC-Static_Parameters',
-        'DAC-Dynamic_Parameters',
-        'Troubleshooting_of_ADC_and_DAC',
-      ],
-    },
-    {
-      type: 'category',
-      label: 'ATE Coding Syntax',
-      link: {
-        type: 'generated-index',
-        //description: 'describtion to be updated',
-        keywords: ['x', 'x'],
-      },
-      items: [
-        'VBT_Syntax-TheHdw',
-        'VBT_Syntax-TheHdw-DCVI',
-        'VBT_Syntax-TheExec-Flow',
-        'Pattern_Syntax_Notes',
-        'DCVI_Alarms'
-      ],
-    },
-
-
-
-
-
 
   ],
 
