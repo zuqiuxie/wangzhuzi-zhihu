@@ -10,7 +10,7 @@ const sidebars = {
         slug: '/王竹子',
         type: 'generated-index',
         //description: '',
-        keywords: ['王竹子', '竹子后庭玩法教学系列', '电阻', '电容', '电感', '磁珠', '二极管', '三极管', 'MOS', '运算放大器', '数字电路', '设计规范', '推挽开漏', '共模差模', '储存介质', '锂电池', '编码器'],
+        //keywords: ['王竹子', '竹子后庭玩法教学系列', '电阻', '电容', '电感', '磁珠', '二极管', '三极管', 'MOS', '运算放大器', '数字电路', '设计规范', '推挽开漏', '共模差模', '储存介质', '锂电池', '编码器'],
       },
       items: [
         'wangzhuzi/houting/基本元器件-电阻',
@@ -28,7 +28,7 @@ const sidebars = {
       link: {
         type: 'generated-index',
         //description: ' ',
-        keywords: ['竹子的专业绳缚教学', '协议', ],
+        //keywords: ['竹子的专业绳缚教学', '协议', ],
       },
       items: [
         'wangzhuzi/shengfu/RobotCtrl-STM32通用开发套件',
@@ -48,7 +48,7 @@ const sidebars = {
       link: {
         type: 'generated-index',
         //description: ' ',
-        keywords: ['王竹子的SM教学', 'USB', ],
+        //keywords: ['王竹子的SM教学', 'USB', ],
       },
       items: [
         'wangzhuzi/sm/直流有刷电机驱动的设计',
@@ -87,7 +87,7 @@ const sidebars = {
       link: {
         type: 'generated-index',
         //description: ' ',
-        keywords: ['竹子的生活分享频道', 'USB',],
+        //keywords: ['竹子的生活分享频道', 'USB',],
       },
       items: [
         'wangzhuzi/shenghuo/通信协议-数字逻辑电平',
