@@ -87,6 +87,13 @@ const sidebars = {
         '电源方案（Boost）-SX1308',
         '电源方案（PMIC）-EA3036C',
         '电源方案（PMIC）-EA3059',
+        '函数思想在电路设计中的应用',
+        'OrCAD配置与技巧',
+        '示波器的触发模式',
+        '网络分析仪的使用',
+        '逻辑分析仪的使用',
+        '宽带注入变压器的使用',
+        '线性注入器的使用',
       ],
     },
 
@@ -109,63 +116,6 @@ const sidebars = {
       ],
     },
 
-    {
-      type: 'category',
-      label: '软件与仪器使用',
-      link: {
-        type: 'generated-index',
-        //description: ' ',
-        keywords: ['x', 'x'],
-      },
-      items: [
-
-        '函数思想在电路设计中的应用',
-        'OrCAD配置与技巧',
-        '示波器的触发模式',
-        '网络分析仪的使用',
-        '逻辑分析仪的使用',
-        '宽带注入变压器的使用',
-        '线性注入器的使用',
-      ],
-    },
-
-
-    {
-      type: 'category',
-      label: 'ATE Test Fundamental',
-      link: {
-        type: 'generated-index',
-        //description: 'describtion to be updated',
-        keywords: ['x', 'x'],
-      },
-      items: [
-        'Continuity_Test',
-        'DC_Parameters',
-        'IDD_Test',
-        'Leakage_Test',
-        'Level_Threshold_Test',
-        'Digital_Functional_Test',
-      ],
-    },
-    {
-      type: 'category',
-      label: 'ATE Mixed Signal Test',
-      link: {
-        type: 'generated-index',
-        slug: '/ATE',
-        //description: 'describtion to be updated',
-        keywords: ['x', 'x'],
-      },
-      items: [
-        'Basics_of_Mixed_Signal_Test',
-        'Basics_of_Fourier_Transform',
-        'ADC-Static_Parameters',
-        'ADC-Dynamic_Parameters',
-        'DAC-Static_Parameters',
-        'DAC-Dynamic_Parameters',
-        'Troubleshooting_of_ADC_and_DAC',
-      ],
-    },
     {
       type: 'category',
       label: 'ATE Coding Syntax',
