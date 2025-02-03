@@ -104,10 +104,11 @@ const sidebars = {
 
 
 
-  嵌入式与软件: [{
+  醉轻舟: [{
     type: 'category',
     label: '软件开发',
     link: {
+      slug: '/醉轻舟',
       type: 'generated-index',
       //description: 'describtion to be updated',
       keywords: ['x', 'x'],
@@ -155,7 +156,6 @@ const sidebars = {
     label: '单片机',
     link: {
       type: 'generated-index',
-      slug: '/嵌入式与软件',
       //description: 'describtion to be updated',
       keywords: ['x', 'x'],
     },
