@@ -14,7 +14,7 @@ const sidebars = {
         //keywords: ['王竹子', '竹子后庭玩法教学系列', '电阻', '电容', '电感', '磁珠', '二极管', '三极管', 'MOS', '运算放大器', '数字电路', '设计规范', '推挽开漏', '共模差模', '储存介质', '锂电池', '编码器'],
       },
       items: [
-        'wangzhuzi/houting/基本元器件-电阻',
+        'wangzhuzi/houting/【BDSM灌肠器道具教学分享】',
         'wangzhuzi/houting/基本元器件-电容',
         'wangzhuzi/houting/论文工具收集',
         'wangzhuzi/houting/基本元器件-电感与磁珠',
