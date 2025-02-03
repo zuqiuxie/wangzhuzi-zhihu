@@ -8,9 +8,9 @@ const katex = require('rehype-katex');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: '王竹子的SM教学频道',
+  title: 'Power\'s Wiki',
   tagline: '^_^',
-  url: 'https://wangzhuzi.zhihu.blog',
+  url: 'https://wiki-power.com',
   baseUrl: '/',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
@@ -80,8 +80,8 @@ const config = {
           blogSidebarTitle: 'Recent',
           feedOptions: {
             type: 'all',
-            title: '王竹子的SM教学频道',
-            description: '王竹子 的博客 RSS',
+            title: 'Power\'s Blog',
+            description: 'Power\'s Wiki 的博客 RSS',
             copyright: `Copyright © ${new Date().getFullYear()} Power Lin.`,
           },
         },
@@ -156,7 +156,7 @@ const config = {
       },
 
       navbar: {
-        title: '王竹子的SM教学频道',
+        title: 'Power\'s Wiki',
         hideOnScroll: true,
         /*
         logo: {
@@ -167,18 +167,18 @@ const config = {
 
 
         items: [{
-            to: "竹子后庭玩法教学系列",
-            label: "竹子后庭玩法教学系列",
+            to: "硬件与半导体",
+            label: "硬件与半导体",
             position: "right",
           },
           {
-            to: "竹子的专业绳缚教学",
-            label: "竹子的专业绳缚教学",
+            to: "嵌入式与软件",
+            label: "嵌入式与软件",
             position: "right",
           },
           {
-            to: "王竹子的SM教学",
-            label: "王竹子的SM教学",
+            to: "效率指南",
+            label: "效率指南",
             position: "right",
           },
 
@@ -207,8 +207,12 @@ const config = {
         links: [
 
           {
-            href: "http://wangzhuzi.zhihu.blog/",
-            label: "王竹子",
+            href: "https://nav.wiki-power.com/",
+            label: "友链 & 导航站",
+          },
+          {
+            href: "http://digest.wiki-power.com/",
+            label: "书摘",
           },
           {
             label: '资源仓库',
