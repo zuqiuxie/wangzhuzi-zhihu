@@ -13,36 +13,22 @@ const sidebars = {
         keywords: ['王竹子', '竹子后庭玩法教学系列', '电阻', '电容', '电感', '磁珠', '二极管', '三极管', 'MOS', '运算放大器', '数字电路', '设计规范', '推挽开漏', '共模差模', '储存介质', '锂电池', '编码器'],
       },
       items: [
-        '基本元器件-电阻',
-        '基本元器件-电容',
-        'preview/论文工具收集',
-        '基本元器件-电感与磁珠',
-        '基本元器件-二极管',
-        '基本元器件-晶体三级管',
-        '基本元器件-场效应管',
-        '基本元器件-光电耦合器',
-        '基本元器件-运算放大器',
-        '数字电路基础知识',
-        'ADC与DAC基础知识',
-        '推挽与开漏输出',
-        '共模信号与差模信号',
-        '数字电路中的竞争与冒险',
-        '存储器的分类',
-        '保险丝的选型',
-        '锂电池选型指南',
-        '编码器的几种输出方式',
-        '防反接电路的设计',
-        '个人PCB设计规范',
+        'wangzhuzi/houting/基本元器件-电阻',
+        'wangzhuzi/houting/基本元器件-电容',
+        'wangzhuzi/houting/论文工具收集',
+        'wangzhuzi/houting/基本元器件-电感与磁珠',
+        'wangzhuzi/houting/基本元器件-二极管',
+        'wangzhuzi/houting/基本元器件-晶体三级管',
       ],
     },
 
     {
       type: 'category',
-      label: '嵌入式硬件',
+      label: '竹子的专业绳缚教学',
       link: {
         type: 'generated-index',
         //description: ' ',
-        keywords: ['硬件与半导体', '协议', '通信协议', '逻辑电平', 'SPI', 'I2C', 'CAN', 'USB', ],
+        keywords: ['竹子的专业绳缚教学', '协议', ],
       },
       items: [
         'RobotCtrl-STM32通用开发套件',
@@ -61,11 +47,11 @@ const sidebars = {
 
     {
       type: 'category',
-      label: '电机驱动',
+      label: '王竹子的SM教学',
       link: {
         type: 'generated-index',
         //description: ' ',
-        keywords: ['硬件与半导体', '协议', '通信协议', '逻辑电平', 'SPI', 'I2C', 'CAN', 'USB', ],
+        keywords: ['王竹子的SM教学', 'USB', ],
       },
       items: [
         '直流有刷电机驱动的设计',
@@ -101,11 +87,11 @@ const sidebars = {
 
     {
       type: 'category',
-      label: '通信协议',
+      label: '竹子的生活分享频道',
       link: {
         type: 'generated-index',
         //description: ' ',
-        keywords: ['硬件与半导体', '协议', '通信协议', '逻辑电平', 'SPI', 'I2C', 'CAN', 'USB',],
+        keywords: ['竹子的生活分享频道', 'USB',],
       },
       items: [
         '通信协议-数字逻辑电平',
