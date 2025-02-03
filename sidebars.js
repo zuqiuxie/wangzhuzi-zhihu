@@ -3,6 +3,7 @@ const sidebars = {
 
   王竹子: [
     'Home',
+
     {
       type: 'category',
       label: '竹子后庭玩法教学系列',
@@ -37,7 +38,7 @@ const sidebars = {
         'wangzhuzi/shengfu/RobotCtrl_Power-电源供电板',
         'wangzhuzi/shengfu/Flip-基于全志F1C200s的Linux开发板',
         'wangzhuzi/shengfu/OSD335x最小系统的设计',
-        'wangzhuzi/shengfu/如何设计一款单片机的最小系统', // CSDN
+        'wangzhuzi/shengfu/如何设计一款单片机的最小系统',
         'wangzhuzi/shengfu/STM32F4硬件开发',
       ],
     },
