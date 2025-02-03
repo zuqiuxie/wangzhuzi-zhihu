@@ -165,7 +165,6 @@ const sidebars = {
     type: 'category',
     label: '奇奇怪怪系列',
     link: {
-      slug: '/醉轻舟',
       type: 'generated-index',
       //description: 'describtion to be updated',
       keywords: ['x', 'x'],
@@ -181,7 +180,6 @@ const sidebars = {
     type: 'category',
     label: '母女系列',
     link: {
-      slug: '/醉轻舟',
       type: 'generated-index',
       //description: 'describtion to be updated',
       keywords: ['x', 'x'],
@@ -196,7 +194,6 @@ const sidebars = {
     type: 'category',
     label: '漫画改编',
     link: {
-      slug: '/醉轻舟',
       type: 'generated-index',
       //description: 'describtion to be updated',
       keywords: ['x', 'x'],
@@ -213,7 +210,6 @@ const sidebars = {
     type: 'category',
     label: '黑人系列',
     link: {
-      slug: '/醉轻舟',
       type: 'generated-index',
       //description: 'describtion to be updated',
       keywords: ['x', 'x'],
@@ -232,7 +228,6 @@ const sidebars = {
     type: 'category',
     label: '孕妇系列',
     link: {
-      slug: '/醉轻舟',
       type: 'generated-index',
       //description: 'describtion to be updated',
       keywords: ['x', 'x'],
@@ -249,7 +244,6 @@ const sidebars = {
     type: 'category',
     label: 'NTR精选合集',
     link: {
-      slug: '/醉轻舟',
       type: 'generated-index',
       //description: 'describtion to be updated',
       keywords: ['x', 'x'],
@@ -268,7 +262,6 @@ const sidebars = {
     type: 'category',
     label: '优秀影片合集',
     link: {
-      slug: '/醉轻舟',
       type: 'generated-index',
       //description: 'describtion to be updated',
       keywords: ['x', 'x'],
@@ -284,7 +277,6 @@ const sidebars = {
     type: 'category',
     label: '不为人知的女优故事',
     link: {
-      slug: '/醉轻舟',
       type: 'generated-index',
       //description: 'describtion to be updated',
       keywords: ['x', 'x'],
