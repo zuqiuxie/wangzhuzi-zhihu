@@ -8,4 +8,4 @@ youtube：根据具体应用电路的需要而定
 
 ## 封面
 
-![1](image/1/1.png)
+![1](images/1/1.png)
