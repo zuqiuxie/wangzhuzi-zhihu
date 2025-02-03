@@ -297,6 +297,7 @@ const sidebars = {
     type: 'category',
     label: '机器人队行政',
     link: {
+      slug: '/效率指南',
       type: 'generated-index',
       //description: 'describtion to be updated',
       //keywords: ['x', 'x'],
@@ -410,7 +411,6 @@ const sidebars = {
     type: 'category',
     label: '高效工作',
     link: {
-      slug: '/效率指南',
       type: 'generated-index',
       //description: 'describtion to be updated',
       //keywords: ['x', 'x'],
