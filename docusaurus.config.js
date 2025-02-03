@@ -173,8 +173,8 @@ const config = {
             position: "right",
           },
           {
-            to: "嵌入式与软件",
-            label: "嵌入式与软件",
+            to: "醉轻舟",
+            label: "醉轻舟",
             position: "right",
           },
           {
